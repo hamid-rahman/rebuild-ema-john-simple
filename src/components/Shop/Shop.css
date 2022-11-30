@@ -1,0 +1,19 @@
+.shop-component{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-component{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 100px 40px;
+}
+.card-component{
+    position: sticky;
+    top: 20px;
+    right: 0;
+    background: #eee;
+    margin: 40px 40px 0 0;
+    height: 600px;
+    padding: 40px;
+}

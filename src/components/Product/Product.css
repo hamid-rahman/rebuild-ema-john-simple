@@ -1,0 +1,41 @@
+.product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 10px 10px 0 0 ;
+
+}
+.product{
+    border: 1px solid gray;
+    padding: 7px;
+    width: 286px;
+    border-radius: 10px;
+    position: relative;
+}
+.product .btn{
+    background: yellow;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius:0 0 10px 10px;
+    text-align: center;
+    transition: all linear .2s;
+    border: none;
+    cursor: pointer;
+}
+.product button:hover{
+    background: rgb(190, 190, 81);
+    color: aliceblue;
+    cursor: grabbing;
+    transition: all linear .2s;
+    border: none;
+    cursor: pointer;
+}
+.product h5{
+    font-weight: 600;
+    padding: 5px 0;
+}
+.pera{
+    margin-bottom: 50px;
+}
